@@ -20,3 +20,21 @@ Este projeto é uma Prova de Conceito (PoC) que demonstra como gerar documentos 
 1. Clone este repositório para a sua máquina local usando:
    ```bash
    git clone <URL_DO_REPOSITÓRIO>
+   ```
+2. Navegue até o diretório do projeto clonado.
+3. Execute `npm install` para instalar as dependências necessárias.
+
+## Como Usar
+
+Para iniciar o servidor de desenvolvimento, execute:
+
+```bash
+npm run dev
+```
+
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão. Preencha o formulário e clique no botão "Gerar Word" para criar e baixar o documento do Word.
+
+## Estrutura do Projeto
+
+- `src/components/FormToWord.tsx`: Componente do formulário que coleta os dados para geração do documento.
+- `src/lib/generateDocx.ts`: Função que implementa a geração do documento do Word.
